@@ -1,0 +1,27 @@
+code: showcase
+description: showcase
+bundle-type: system-level-bundle
+components:
+  pageModels:
+    - pageModels/hello_page_template-descriptor.yaml
+  fragments:
+    - fragments/jeff_bundle_fragment-descriptor.yaml
+  pages:
+    - pages/jeff_s_bundle_page-descriptor.yaml
+  groups:
+    - groups/groups-descriptor.yaml
+  contentTypes:
+    - contentTypes/hct-descriptor.yaml
+  contentModels:
+    - contentModels/hello-content-template-descriptor.yaml
+  assets:
+    - assets/36/36-descriptor.yaml
+  contents:
+    - contents/hct34-descriptor.yaml
+  categories:
+    - categories/categories-descriptor.yaml
+  labels:
+    - labels/labels-descriptor.yaml
+  plugins:
+    - plugins/pn-4b15f539-806e608b-entando-my-service-descriptor.yaml
+    - plugins/pn-4b15f539-9f21bf63-entando-another-ms-descriptor.yaml

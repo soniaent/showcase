@@ -1,0 +1,10 @@
+descriptorVersion: v4
+name: pn-4b15f539-806e608b-entando-my-service
+image: 'registry.docker.com/entando/my-service@sha256:5246376798bd9cb1c086f8d4708e6f3222b4d1f194a6c16f0f5361e79606add0'
+dbms: none
+healthCheckPath: /health
+ingressPath: /entando-showcase-bundle-4b15f539/my-service
+permissions: []
+environmentVariables:
+  - name: ENTANDO_ECR_INGRESS_URL
+    value: 'http://quickstart.10.11.91.53.nip.io/digital-exchange'
