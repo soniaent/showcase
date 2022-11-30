@@ -22,6 +22,3 @@ components:
     - categories/categories-descriptor.yaml
   labels:
     - labels/labels-descriptor.yaml
-  plugins:
-    - plugins/pn-4b15f539-806e608b-entando-my-service-descriptor.yaml
-    - plugins/pn-4b15f539-9f21bf63-entando-another-ms-descriptor.yaml
